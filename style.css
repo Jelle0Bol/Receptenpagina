@@ -1,0 +1,82 @@
+.titel-bovenin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 32px;
+  font-size: 36px;
+}
+
+.info1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+#gehele-div {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#header {
+  background-color: white;
+  width: 100%;
+  padding: 20px 0px;
+}
+
+#header-content {
+  max-width: 1000px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  margin: 0px;
+}
+
+.titelbovenmenu {
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+ul li {
+  font-size: 20px;
+  padding-bottom: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+ol li {
+  font-size: 20px;
+  padding-bottom: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+.afbeeldingVoorRecept {
+  max-width: 760px;
+  width: 100%;
+  max-height: 760px;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.tip-groen {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  background-color: #def6ed;
+  border-radius: 4px;
+  display: inline-block;
+  padding: 20px 30px;
+  margin-top: 40px;
+}
+
+a {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+a:hover {
+  color: black;
+}/*# sourceMappingURL=style.css.map */

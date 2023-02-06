@@ -1,0 +1,84 @@
+$mainFont : 'Roboto', sans-serif;
+$tipColor : #def6ed;
+
+.titel-bovenin {
+    font-family: $mainFont;
+    font-weight: 500;
+    line-height: 32px;
+    font-size: 36px;
+}
+
+.info1 {
+    font-family: $mainFont;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+#gehele-div {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#header {
+    background-color: white;
+    width: 100%;
+    padding: 20px 0px;
+}
+
+#header-content {
+    max-width: 1000px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    margin: 0px;
+}
+
+.titelbovenmenu {
+    font-family: $mainFont;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+ul li {
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-family: $mainFont;
+}
+
+ol li {
+    font-size: 20px;
+    padding-bottom: 20px;
+    font-family: $mainFont;
+}
+
+.afbeeldingVoorRecept {
+    max-width: 760px;
+    width: 100%;
+    max-height: 760px; 
+    height: 100%;
+    object-fit: cover;
+}
+
+.tip-groen {
+    font-family: $mainFont;
+    font-size: 20px;
+    background-color: $tipColor;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 20px 30px;
+    margin-top: 40px;
+}
+
+a {
+    font-family: $mainFont;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+a:hover {
+    color: black;
+}
